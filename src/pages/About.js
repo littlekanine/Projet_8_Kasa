@@ -1,12 +1,14 @@
-import { Link } from "react-router-dom"
+import React from "react"
+import Banner from "../components/Banner";
+import FooterPages from "../components/FooterPages.js";
 
 function About () {
-    <div>
-        A propos
-        <nav>
-          <Link to = "/Page_acceuil">Page d'acceuil</Link>
-        </nav>
-      </div>
+    return (
+        <div>
+            <Banner />
+            <FooterPages />
+        </div>
+    );
 }
 
 export default About 

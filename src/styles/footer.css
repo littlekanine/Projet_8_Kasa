@@ -1,0 +1,16 @@
+.footer {
+    background-color: black;
+    height: 209px;
+    width: 1440px;
+    color: white;
+}
+
+.logo-reserved {
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    margin-top: 60px;
+    height: 100%;
+}

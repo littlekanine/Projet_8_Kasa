@@ -1,15 +1,16 @@
-import { Link } from "react-router-dom"
-
+import React from "react"
+import Banner from "../components/Banner.js";
+import Body from "../components/BodyHome.js";
+import Footer from "../components/FooterPages.js";
 
 function Home () {
-<div>
-        Page d'acceuil 
-        <nav>
-          <Link to = "/Home">Acceuil</Link>
-          <Link to = "/Housing">Fiche logement</Link>
-          <Link to = "/About">A propos</Link>
-        </nav>
-      </div>
+  return (
+    <div>
+      <Banner />
+      <Body />
+      <Footer />
+    </div>
+    );
 }
 
 export default Home
