@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/body.css'
 import landscape from '../assets/img/Image source 1.png'
+import HousingList from "./HousingList";
 
 function Body () {
     return (
@@ -10,10 +11,7 @@ function Body () {
                 <h1 className="flex text">Chez vous, partout et ailleurs</h1>
             </div>
             <div className=" flex center">
-                <div className="container-housing">
-
-                </div>
-                <p></p>
+                <HousingList />
             </div>
         </div>
     )
