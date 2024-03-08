@@ -36,3 +36,11 @@ code {
 .space-between {
   justify-content: space-between;
 }
+
+.row {
+  flex-direction: row;
+}
+
+.align-bottom {
+  align-self: flex-end;
+}
