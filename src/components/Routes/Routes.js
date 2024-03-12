@@ -1,14 +1,14 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Home from '../pages/Home';
-import Housing from '../pages/Housing';
-import About from '../pages/About';
-import Error from '../pages/Error';
+import Home from '../../pages/HomePage';
+import Housing from '../../pages/HousingPage';
+import About from '../../pages/AboutPage';
+import Error from '../../pages/ErrorPage';
 
 function CustomRoutes() {
     return (
         <Routes>
-            <Route path="/Home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Housing" element={<Housing />} />
             <Route path="/About" element={<About />} />
             <Route path="*" element={<Error />} />

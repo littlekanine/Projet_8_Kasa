@@ -6,7 +6,7 @@ function Housing () {
     <div>
         Fiche logement
         <nav>
-          <Link to = "/Home">Acceuil</Link>
+          <Link to = "/">Acceuil</Link>
           <Link to = "/About">A propos</Link>
         </nav>
     </div>
