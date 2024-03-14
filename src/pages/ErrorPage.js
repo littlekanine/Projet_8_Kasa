@@ -1,10 +1,12 @@
 import React from "react"
-import Banner from "../components/Banner/Banner.js";
+import Layout from "../components/layoutFile/Layout.js";
 
 function Error () {
     return (
-    <div>
-      <Banner />
+      <div>
+        <Layout>
+
+        </Layout>
       </div>
     );
 }

@@ -1,0 +1,63 @@
+.collapse-container {
+    background-color: #FF6060;
+    border-radius: 5px;
+    width: 80%;
+    height: 54px;
+    color: white;
+    font-size: 24px;
+    padding-left: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.collapse-content {
+    flex-direction: column;
+    width: 80%;
+    background-color: #F6F6F6;
+    z-index: 0;
+    /* transition: 0.5s;
+    height: auto; */
+}
+
+.slidein {
+    animation: slidein 0.5s ease-in forwards;
+}
+
+.slideout {
+    animation: slideout 0.5s ease-in forwards;
+}
+
+@keyframes slideout {
+    0% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    
+    100% {
+        transform: translateY(-100%);
+        opacity: 0 ;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateY(0%);
+        opacity: 1 ;
+    }
+}
+
+.collapse {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.vector {
+    background-color: white;
+    color: white;
+}
+

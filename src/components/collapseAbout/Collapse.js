@@ -8,16 +8,14 @@ function Collapse ({title, children}) {
         setIsOpen(!isOpen);
       };
     
-    return (
+      return (
         <div className={`collapse ${isOpen ? 'open' : 'closed'} flex center column align-center`}>
             <div className="collapse-container collapse-header center" onClick={toggleCollapse}>
                 {title}
             </div>
-            {isOpen && (
-                <div className="collapse-content flex ">
-                    {children} 
-                </div>
-            )}
+            <div className={`collapse-content flex ${isOpen ? 'slidein' : 'slideout'}`}>
+                {children} 
+            </div>
         </div>
     )
 }

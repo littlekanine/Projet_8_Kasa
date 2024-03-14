@@ -1,7 +1,7 @@
-import Housings from '../../../datas/housing.json';
+import Housings from '../../datas/housing.json';
 import React from "react";
-import '../../../styles/index.css'
-import './HousingList.css'
+import '../../styles/index.css'
+import './housingList.css'
 
 function HousingList () {
     return (
