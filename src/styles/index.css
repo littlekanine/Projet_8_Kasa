@@ -17,6 +17,10 @@ code {
     monospace;
 }
 
+.red {
+  background-color: red;
+}
+
 .flex {
   display: flex;
 }
