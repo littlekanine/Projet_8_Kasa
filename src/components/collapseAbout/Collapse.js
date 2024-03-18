@@ -17,7 +17,7 @@ function Collapse ({title, children}) {
     
       return (
         <div className="collapse flex center column align-center">
-            <div className={`flex collapse-container collapse-header center space-between align-center ${isOpen ? 'open' : 'closed'}`}>
+            <div className={`flex collapse-container collapse-header space-between align-center ${isOpen ? 'open' : 'closed'}`}>
                 {title}
                 <img className={`vector ${isRotated ? 'rotate-center' : ''}`} src = {vector} alt="vector" onClick={handleVectorClick} />
             </div>

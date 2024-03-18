@@ -1,5 +1,6 @@
 import Housings from '../../datas/housing.json';
 import React from "react";
+import { Link } from 'react-router-dom';
 import '../../styles/index.css'
 import './housingList.css'
 
@@ -10,10 +11,12 @@ function HousingList () {
                 {Housings.map ((housing, index) => {
                     return (
                         <div key = {index} className='flex card align-bottom '>
-                            <div className='card-image-container'>
-                                <img className='card-img flex' src={housing.cover} alt = {housing.title}/>
-                                <h3 className='card-title'>{housing.title}</h3>
-                            </div>
+                            <Link to={`/Housing/${housing.id}`} className="card-link">
+                                <div className='card-image-container'>
+                                    <img className='card-img flex' src={housing.cover} alt = {housing.title}/>
+                                    <h3 className='card-title'>{housing.title}</h3>
+                                </div>
+                            </Link>
                         </div>
                     );
                 })}

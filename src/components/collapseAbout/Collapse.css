@@ -15,7 +15,7 @@
 
 .collapse-content {
     flex-direction: column;
-    width: 77%;
+    width: 79.5%;
     padding: 10px;
     background-color: #F6F6F6;
     z-index: 0;
@@ -71,7 +71,7 @@
 
 .collapse {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .vector {

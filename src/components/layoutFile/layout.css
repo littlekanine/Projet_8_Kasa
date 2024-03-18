@@ -4,8 +4,17 @@
     height: 68px;
 }
 
+header {
+    width: 100%;
+}
+
+.nav {
+    width: 89.2%;
+    gap: 52%
+}
+
 .link {
-    gap: 10px;
+    gap: 20px;
 }
 
 .link-spec {
@@ -13,8 +22,6 @@
     font-size: 24px;
     color: black;
     text-decoration: none;
-    padding-right: 60px;
-    
 }
 
 .link-spec:hover {
@@ -22,9 +29,12 @@
 }
 
 .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     background-color: black;
     height: 209px;
-    width: 1440px;
+    width: 100%;
     color: white;
 }
 

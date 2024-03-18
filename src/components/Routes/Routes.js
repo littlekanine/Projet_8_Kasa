@@ -9,7 +9,7 @@ function CustomRoutes() {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Housing" element={<Housing />} />
+            <Route path="/Housing/:id" element={<Housing />} />
             <Route path="/About" element={<About />} />
             <Route path="*" element={<Error />} />
         </Routes>

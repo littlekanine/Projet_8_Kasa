@@ -1,0 +1,20 @@
+.error-title {
+    width: 597px;
+    height: 263px;
+    font-size :288px;
+    font-weight: 700;
+    color: #FF6060 ;
+}
+
+.error-h2 {
+    color: #FF6060;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom : 200px;
+}
+
+.link-back {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}

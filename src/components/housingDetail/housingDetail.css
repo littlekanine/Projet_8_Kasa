@@ -1,0 +1,17 @@
+.carrousel {
+    margin-top: 30px;
+    width: auto;
+}
+
+.container-detail {
+    color :#FF6060 ;
+    font-size: 36px;
+    font-weight: 500 ;
+}
+
+.picture {
+    object-fit: cover;
+    width: 89.2%;
+    height: 415px;
+    border-radius: 10px;
+}

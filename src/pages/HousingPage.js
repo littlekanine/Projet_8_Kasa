@@ -1,14 +1,13 @@
 import React from "react"
-import { Link } from "react-router-dom";
+import Layout from "../components/layoutFile/Layout";
+import HousingDetail from "../components/housingDetail/HousingDetail";
 
 function Housing () {
   return (
     <div>
-        Fiche logement
-        <nav>
-          <Link to = "/">Acceuil</Link>
-          <Link to = "/About">A propos</Link>
-        </nav>
+        <Layout>
+          <HousingDetail />
+        </Layout>  
     </div>
     );
 }
