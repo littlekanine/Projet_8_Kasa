@@ -8,6 +8,14 @@ body {
 
 }
 
+/* #root {
+  width: 89.2%;
+} */
+
+.min-height {
+  min-height: 760px;
+}
+
 .widthFull {
   width: 100%;
 }
@@ -25,6 +33,14 @@ code {
   display: flex;
 }
 
+.start {
+  justify-content: flex-start;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
 .center {
   justify-content: center;
 }
@@ -35,6 +51,10 @@ code {
 
 .column {
   flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
 }
 
 .end {

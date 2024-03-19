@@ -17,7 +17,7 @@ function Layout ({ children }) {
                 </div>
             </header>
 
-            <main>{children}</main>
+            <main className="min-height">{children}</main>
             
             <footer className="flex center footer">
                 <div className="logo-reserved flex column">

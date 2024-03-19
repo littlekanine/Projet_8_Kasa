@@ -1,0 +1,26 @@
+/* .stars-full {
+ width: 24.75px;
+ height: 24px;
+ color: red;
+}
+
+.star-empty {
+    width: 24.75px;
+    height: 24px;
+    color: grey;
+} */
+
+.rate-stars {
+    width: 196px;
+    height: 36px;
+}
+
+.fa {
+    font-family: "Font Awesome 5 Free"; /* Assurez-vous d'avoir correctement inclus Font Awesome dans votre projet */
+    font-size: 1.2em; /* Taille des icônes */
+    color: #ffd700; /* Couleur par défaut des étoiles */
+}
+
+.fa-star-empty {
+    color: #ccc; /* Couleur des étoiles vides */
+}

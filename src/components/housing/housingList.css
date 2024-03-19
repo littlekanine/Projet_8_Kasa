@@ -1,14 +1,14 @@
 .background-container {
     background-color: #F6F6F6;
-    width: 1240px;
-    max-height: 829px;
+    width: 89.2%;
+    min-height: auto;
     border-radius : 25px;
     margin: 50px;
 }
 
 .container-housings {
     flex-wrap: wrap;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     color: white;
     font-size: 18px;
     scrollbar-width: none;
@@ -43,14 +43,17 @@
 }
 
 .card-title {
+    background-color: rgba(255, 96, 96, 0.8); ;
+    border-bottom: 10px;
     position: absolute;
-  bottom: 0; 
-  left: 0; 
-  right: 0; 
-
-  color: white;
-  padding: 8px; 
-  margin: 0;
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    color: white;
+    -webkit-text-stroke: 0.5px white;
+    padding: 8px; 
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 @media (max-width : 768px) {

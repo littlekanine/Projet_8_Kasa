@@ -29,9 +29,6 @@ header {
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
     background-color: black;
     height: 209px;
     width: 100%;
