@@ -1,0 +1,31 @@
+/* .carrousel {
+    height: 415px;
+} */
+
+.slide img {
+    width: 1240px;
+    height: 415px;
+    object-fit: cover;
+    border-radius : 25px; 
+}
+
+.slide-container {
+    height: 415px;
+}
+
+button {
+    background: none;
+    border : none
+}
+
+.back {
+    position: relative;
+    top :250px;
+    left: 20px;
+}
+
+.next {
+    position: relative;
+    top : 250px;
+    left: 1100px;
+}

@@ -57,15 +57,13 @@
 }
 
 .tags {
-    /* width: 89.2%; */
     gap: 20px;
-    /* margin-top: 20px; */
 }
 
 .tag {
     background-color: #FF6060;
     border-radius: 10px;
-    width: 115px;
+    width: 200px;
     height: 25px;
     color: white;
     font-weight: 700;
@@ -74,4 +72,13 @@
 
 .rate {
     width: 89.2%;
+}
+
+.collapse-details {
+    margin-top: 20px;
+    min-height: 50px;
+}
+
+.collapse-container {
+    width: 80%;
 }

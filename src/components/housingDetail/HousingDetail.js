@@ -2,7 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Housings from '../../datas/housing.json';
 import './housingDetail.css'
-import RateStars from "./Star";
+import RateStars from "../stars/Star";
+import Collapse from "../collapseAbout/Collapse";
+import Carrousel from "../carrousel/Carrousel";
 
 function HousingDetail () {
 
@@ -13,7 +15,7 @@ function HousingDetail () {
     return (
         <div className="">
             <div className="flex center carrousel">
-                <img className="flex picture center align-center" src={housing.cover} alt="pouet"></img>
+                <Carrousel pictures= {housing.pictures}/>   
             </div>
             <div className="flex column center align-center">
                 <div className="container-detail space-between align-center flex">
@@ -35,6 +37,18 @@ function HousingDetail () {
                             <RateStars TotalStars ={5} StarsFull={housing.rating} />
                         </div>
                     </div>
+                </div>
+                <div className="flex row collapse-details align-center">
+                    <Collapse title="Description" className="collapse-container">
+                        <p>{housing.description}</p>
+                    </Collapse>
+                    <Collapse title="Equipements">
+                        <div>
+                            {housing.equipments.map((equipment, index) => (
+                                <p key={index}>{equipment}</p>
+                            ))}
+                        </div>
+                    </Collapse>
                 </div>
             </div>
         </div>
