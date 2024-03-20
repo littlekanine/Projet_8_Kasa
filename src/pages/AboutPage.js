@@ -1,6 +1,6 @@
 import React from "react"
-import AboutCollapse from "../components/collapseAbout/AboutCollapse.js";
-import Layout from "../components/layoutFile/Layout.js";
+import AboutCollapse from "../components/collapse/AboutCollapse.js";
+import Layout from "../components/layout/Layout.js";
 
 function About () {
     return (

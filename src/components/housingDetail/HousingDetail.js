@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import Housings from '../../datas/housing.json';
 import './housingDetail.css'
 import RateStars from "../stars/Star";
-import Collapse from "../collapseAbout/Collapse";
+import Collapse from "../collapse/Collapse";
 import Carrousel from "../carrousel/Carrousel";
 
 function HousingDetail () {
