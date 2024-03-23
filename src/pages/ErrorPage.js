@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layoutFile/Layout.js";
+import Layout from "../components/layout/Layout.js";
 import ErrorAlert from "../components/error/ErrorAlert.js";
 
 function Error () {

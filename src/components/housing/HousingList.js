@@ -1,3 +1,6 @@
+// React component for displaying a list of housing items.
+// Renders a list of housing cards generated from data in 'housing.json', each linking to a detailed page for that housing item.
+
 import Housings from '../../datas/housing.json';
 import React from "react";
 import { Link } from 'react-router-dom';

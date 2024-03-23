@@ -45,3 +45,22 @@ header {
     margin-top: 60px;
     height: 100%;
 }
+
+@media (max-width : 768px) {
+    .img-logo {
+        height: 46.88px;
+        width: 145px;
+    }
+
+    .link-spec {
+        font-size: 18px;
+    }
+
+    .link {
+        gap: 10px;
+    }
+
+    .nav {
+        gap: 10%;
+    }
+}

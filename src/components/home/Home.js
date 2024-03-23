@@ -1,3 +1,6 @@
+// React component for the main body content of the homepage.
+// Displays a LandscapeBanner component with a title and image, followed by a list of housing items.
+
 import React from "react";
 import './home.css'
 import '../bannerStack/banner.css'

@@ -1,3 +1,6 @@
+// React component for displaying a landscape banner with image and text.
+// Accepts three props: 'image' for the URL of the image to display, 'className' for additional CSS class, and 'text' for the text content of the banner.
+
 import React from "react";
 
 

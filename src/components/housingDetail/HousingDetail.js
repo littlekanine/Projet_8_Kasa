@@ -1,3 +1,6 @@
+// React component for displaying details of a housing item.
+// Renders a carousel of pictures, housing title, location, host details, tags, rating, and collapsible sections for description and amenities.
+
 import React from "react";
 import { useParams } from "react-router-dom";
 import Housings from '../../datas/housing.json';

@@ -1,3 +1,6 @@
+// React component for defining custom routes using React Router.
+// Maps URL paths to corresponding page components: Home, Housing, About, and Error.
+
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from '../../pages/HomePage';

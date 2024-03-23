@@ -1,3 +1,6 @@
+// React component for displaying collapsible sections about a topic.
+// Renders a LandscapeBanner component at the top followed by collapsible sections generated from data in 'TextAbout' JSON array.
+
 import React from "react";
 import '../bannerStack/banner.css'
 import LandscapeBanner from "../bannerStack/LandscapeBanner";

@@ -1,3 +1,6 @@
+// React component for creating collapsible sections.
+// Accepts two props: 'title' for the title of the collapsible section and 'children' for the content inside the collapsible section.
+
 import React, { useState} from "react";
 import vector from "../../assets/vector/arrow_back_ios-24px 2.png"
 import "./collapse.css"
