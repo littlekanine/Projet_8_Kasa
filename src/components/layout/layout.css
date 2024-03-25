@@ -46,6 +46,20 @@ header {
     height: 100%;
 }
 
+@media (max-width:1000px) {
+    .link-spec {
+        font-size: 22px;
+    }
+
+    .link {
+        gap: 10px;
+    }
+
+    .nav {
+        gap: 10%;
+    }
+}
+
 @media (max-width : 768px) {
     .img-logo {
         height: 46.88px;
@@ -53,7 +67,7 @@ header {
     }
 
     .link-spec {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .link {
