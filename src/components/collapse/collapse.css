@@ -96,5 +96,22 @@
     transform: rotate(0deg);
 }
 
+@media (max-width : 768px) {
+    
+    .collapse-container {
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .vector {
+        width: 25px;
+        height: 25px ;
+    }
+
+    .collapse {
+        margin-bottom: 0px;
+    }
+}
+
 
 

@@ -5,6 +5,7 @@
     object-fit: cover;
     border: 1px;
     margin-bottom: 30px;
+    filter: brightness(0.7);
 }
 
 .landscape-home {
@@ -13,7 +14,18 @@
     border-radius: 25px;
     object-fit: cover;
     border: 1px;
-    filter: brightness(0.4);
+    filter: brightness(0.4) drop-shadow(0px 4px 2px #000000);
+
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0px 3px 3px #000000);
+    font-size: 48px;
+    color: white
 }
 
 @media (max-width : 768px) {
@@ -22,8 +34,25 @@
         height: 46px;
     }
 
-    .link-spec {
-        padding-right: 10px;
-        font-size: 18px;
+    .landscape-home {
+        height: 111px;
     }
+
+    .landscape-about {
+        height: 111px;
+        margin-bottom: 10px;
+    }
+
+    .landscape {
+        width: 95%;
+        height: 111px;
+        border-radius: 10px;
+    }
+    
+    .text {
+        font-size: 24px ;
+        justify-content: flex-start;
+        left: 40%;
+    }
+
 }

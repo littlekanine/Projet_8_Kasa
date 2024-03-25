@@ -73,3 +73,7 @@ code {
 .align-bottom {
   align-self: flex-end;
 }
+
+.hidden {
+  visibility: hidden;
+}
