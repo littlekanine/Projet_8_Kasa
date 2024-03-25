@@ -1,8 +1,3 @@
-.carrousel {
-    margin-top: 30px;
-    width: auto;
-}
-
 .container-detail {
     width: 89.2%;
     margin-top: 20px;
@@ -75,10 +70,12 @@
 }
 
 .collapse-details {
+    width: 95% !important;
     margin-top: 20px;
     min-height: 50px;
+    align-items: flex-start !important;
 }
 
-.collapse-container {
-    width: 80%;
+.collapse-container-details {
+    width: 90% !important ; 
 }

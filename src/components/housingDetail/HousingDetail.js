@@ -42,10 +42,10 @@ function HousingDetail () {
                     </div>
                 </div>
                 <div className="flex row collapse-details align-center">
-                    <Collapse title="Description" className="collapse-container">
+                    <Collapse width = "90%" title="Description" className="collapse-container-details">
                         <p>{housing.description}</p>
                     </Collapse>
-                    <Collapse title="Equipements">
+                    <Collapse width = "90%" title="Equipements" className="collapse-container-details">
                         <div>
                             {housing.equipments.map((equipment, index) => (
                                 <p key={index}>{equipment}</p>

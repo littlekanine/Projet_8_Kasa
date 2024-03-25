@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import vector from "../../assets/vector/arrow_back_ios-24px 2.png";
 import "./collapse.css";
 
-function Collapse({ title, children }) {
+function Collapse({ title, children, width }) {
     const [isOpen, setIsOpen] = useState(false);
     const [initialAnimationComplete, setInitialAnimationComplete] = useState(false);
 
@@ -15,8 +15,8 @@ function Collapse({ title, children }) {
     };
 
     return (
-        <div className="collapse flex center column align-center">
-            <div className={`flex collapse-container collapse-header space-between align-center ${isOpen ? 'open' : 'closed'}`}>
+        <div className="collapse flex center column align-center ">
+            <div style={{ width: width }} className={`flex collapse-container collapse-header space-between align-center ${isOpen ? 'open' : 'closed'}`}>
                 {title}
                 <img className={`vector flex ${isOpen ? 'rotate-center' : 'rotate-back'}`} src={vector} alt="vector" onClick={toggleCollapse} />
             </div>

@@ -24,22 +24,24 @@ function Carrousel({pictures}) {
     };
 
     return (
-        <div className="carousel">
-            <button className="back" onClick={prevSlide}>
-                <img src = {slideLeft} alt="slide back"></img>
-            </button>
-            <button className="next" onClick={nextSlide}>
-                <img src = {slideRight} alt="slide next"></img>
-            </button>
-            <div className="slide-container">
+        <div className="carrousel flex column">
+            <div className="slide-container flex center">
                 {pictures.map((picture, index) => (
                     <div
                         key={index}
-                        className={index === currentIndex ? "slide 'active" : "slide"}
+                        className={index === currentIndex ? "slide active" : "slide"}
                     >
                         {index === currentIndex && <img src={picture} alt={`Slide ${index}`} />}
                     </div>
                 ))}
+                <div className="button-container flex space-between center ">
+                    <button className="back" onClick={prevSlide}>
+                        <img src = {slideLeft} alt="slide back"></img>
+                    </button>
+                    <button className="next" onClick={nextSlide}>
+                        <img src = {slideRight} alt="slide next"></img>
+                    </button>
+                </div>
             </div>
         </div>
     );

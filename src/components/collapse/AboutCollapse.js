@@ -13,12 +13,12 @@ function AboutCollapse () {
 
     return (
         <div>
-            <div className="flex center container column align-center ">
+            <div className="flex center container  column align-center ">
             <LandscapeBanner image={landscape2} className="landscape-about" />
             </div>
             <div>
                 {TextAbout.map((item, index) => (
-                    <Collapse title={item.title} key={index}>
+                    <Collapse title={item.title} key={index} width="80%">
                         <p>{item.content}</p>
                     </Collapse>
                 ))}

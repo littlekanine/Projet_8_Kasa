@@ -13,9 +13,13 @@
 
 }
 
+.collapse-about-width {
+    width: 80%;
+}
+
 .collapse-content {
     flex-direction: column;
-    width: 79.5%;
+    width: 88%;
     padding: 10px;
     background-color: #F6F6F6;
     z-index: 0;
