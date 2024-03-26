@@ -57,7 +57,7 @@
 
 .tag {
     background-color: #FF6060;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 200px;
     height: 25px;
     color: white;
@@ -78,4 +78,37 @@
 
 .collapse-container-details {
     width: 90% !important ; 
+}
+
+@media (max-width:768px) {
+    .container-detail {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .collapse-details {
+        flex-direction: column;
+    }
+
+    .tag {
+        width: 84px;
+        height: 18px;
+        font-size: 10px;
+    }
+
+    .host {
+        font-size : 12px;
+    }
+
+    .host img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .host p {
+        font-size: 12px;
+    }
+
+    
 }

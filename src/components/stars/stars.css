@@ -10,3 +10,10 @@
 .grey {
     fill: grey;
 }
+
+@media (max-width : 768px) {
+    .rate-stars {
+        width: 98px;
+        height: 18px;
+    }
+}

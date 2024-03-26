@@ -16,7 +16,7 @@ function HousingDetail () {
 
 
     return (
-        <div className="">
+        <div>
             <div className="flex center carrousel">
                 <Carrousel pictures= {housing.pictures}/>   
             </div>

@@ -31,3 +31,23 @@
   border: none;
   cursor: pointer;
 }
+
+@media (max-width :768px) {
+    .slide.active img {
+        height: 225px;
+    }
+
+    .slide-container {
+        height: 225px;
+    }
+
+    .button-container {
+        height: 19.8px;
+        top: 180px;
+    }
+
+    .next img,
+    .back img {
+        height: 19px;
+    }
+}
