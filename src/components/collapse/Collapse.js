@@ -20,7 +20,7 @@ function Collapse({ title, children, width }) {
                 {title}
                 <img className={`vector flex ${isOpen ? 'rotate-center' : 'rotate-back'}`} src={vector} alt="vector" onClick={toggleCollapse} />
             </div>
-            <div className={`collapse-content flex ${initialAnimationComplete ? '' : 'hidden'} ${isOpen ? 'slidein' : 'slideout'}`} onAnimationEnd={handleAnimationEnd}>
+            <div style={{ width: width }} className={`collapse-content flex ${initialAnimationComplete ? '' : 'hidden'} ${isOpen ? 'slidein' : 'slideout'}`} onAnimationEnd={handleAnimationEnd}>
                 {children} 
             </div>
         </div>

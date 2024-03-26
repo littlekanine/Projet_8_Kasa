@@ -37,7 +37,7 @@ function HousingDetail () {
                             <div key={index} className="tag flex center align-center">{tag}</div>
                         ))}
                         <div className="rate flex end">
-                            <RateStars TotalStars ={5} StarsFull={housing.rating} />
+                            <RateStars TotalStars ={5} StarsRate={housing.rating} />
                         </div>
                     </div>
                 </div>

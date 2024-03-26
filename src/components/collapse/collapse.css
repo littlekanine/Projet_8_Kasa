@@ -19,19 +19,23 @@
 
 .collapse-content {
     flex-direction: column;
-    width: 88%;
-    padding: 10px;
+    width: 79%;
+    padding: 5px;
+    margin-bottom: 10px;
     background-color: #F6F6F6;
     z-index: 0;
     overflow: hidden;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .slidein {
+    overflow: hidden;
     animation: slidein 0.5s ease-in forwards;
 }
 
 .slideout {
+    overflow: hidden;
     animation: slideout 0.5s ease-in forwards;
 }
 
@@ -42,15 +46,17 @@
         height: auto;
     }
 
-    75% {
-        transform: translateY(-75%);
+    50% {
+        transform: translateY(-50%);
         opacity: 0;
+        overflow: hidden;
     }
     
     100% {
         transform: translateY(-100%);
         opacity: 0 ;
         height: 0px;
+        overflow: hidden;
     }
 }
 
@@ -58,12 +64,19 @@
     0% {
         transform: translateY(-100%);
         opacity: 0;
+        overflow: hidden;
     }
 
     50% {
         transform: translateY(-50%);
         opacity: 0;
-        height: 50%;
+        overflow: hidden;
+        }
+
+    75% {
+        transform: translateY(-25%);
+        opacity: 0.2;
+        overflow: hidden;
     }
     
     100% {
@@ -114,6 +127,10 @@
 
     .collapse {
         margin-bottom: 0px;
+    }
+
+    .collapse-content {
+        width: 79%;
     }
 }
 

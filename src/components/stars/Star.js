@@ -7,9 +7,9 @@ import './stars.css'
 import star from'../../assets/vector/star.png'
 import starRed from '../../assets/vector/starRed.png'
 
-function RateStars ({ TotalStars, StarsFull }) {
+function RateStars ({ TotalStars, StarsRate }) {
     const getImage  = (index) => {
-        return index < StarsFull ? starRed : star
+        return index < StarsRate ? starRed : star
     }
 
     return (
