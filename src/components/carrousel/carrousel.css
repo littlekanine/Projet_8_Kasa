@@ -20,9 +20,10 @@
 }
 
 .button-container {
-    position : absolute ;
-    top : 250px;
+    position: absolute;
     width: 88%;
+    top: 270px;
+    height: 0 !important;
 }
 
 .back,

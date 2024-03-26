@@ -26,6 +26,14 @@ function Carrousel({pictures}) {
     return (
         <div className="carrousel flex column">
             <div className="slide-container flex center">
+                <div className="button-container flex space-between center ">
+                        <button className="back" onClick={prevSlide}>
+                            <img src = {slideLeft} alt="slide back"></img>
+                        </button>
+                        <button className="next" onClick={nextSlide}>
+                            <img src = {slideRight} alt="slide next"></img>
+                        </button>
+                    </div>
                 {pictures.map((picture, index) => (
                     <div
                         key={index}
@@ -34,14 +42,6 @@ function Carrousel({pictures}) {
                         {index === currentIndex && <img src={picture} alt={`Slide ${index}`} />}
                     </div>
                 ))}
-                <div className="button-container flex space-between center ">
-                    <button className="back" onClick={prevSlide}>
-                        <img src = {slideLeft} alt="slide back"></img>
-                    </button>
-                    <button className="next" onClick={nextSlide}>
-                        <img src = {slideRight} alt="slide next"></img>
-                    </button>
-                </div>
             </div>
         </div>
     );

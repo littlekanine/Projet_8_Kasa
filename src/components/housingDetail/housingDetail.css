@@ -81,6 +81,10 @@
 }
 
 @media (max-width:768px) {
+
+    .container-location h3 {
+        font-size: 18px;
+    }
     .container-detail {
         display: flex;
         flex-direction: column;

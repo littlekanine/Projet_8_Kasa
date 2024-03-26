@@ -4,7 +4,7 @@ import Layout from "../components/layout/Layout.js";
 
 function Home () {
   return (
-    <div>
+    <div class="full">
       <Layout>
         <Body />
       </Layout>
