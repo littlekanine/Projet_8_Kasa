@@ -50,6 +50,10 @@ p {
   width: 100%;
 }
 
+.width90 {
+  width: 90%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -93,10 +97,6 @@ code {
 
 .space-between {
   justify-content: space-between;
-}
-
-.row {
-  flex-direction: row;
 }
 
 .align-bottom {

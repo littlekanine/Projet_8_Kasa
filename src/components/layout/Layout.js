@@ -1,11 +1,11 @@
-// React component for the layout of the application, including header, main content, and footer.
-// Accepts children components to be rendered within the main content area.
-
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from '../../assets/logo/LOGO.png'
 import logoFooter from '../../assets/logo/LogoFooter.png'
 import './layout.css'
+
+// React component for the layout of the application, including header, main content, and footer.
+// Accepts children components to be rendered within the main content area.
 
 function Layout ({ children }) {
     return (

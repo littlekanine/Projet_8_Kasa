@@ -1,10 +1,12 @@
 .container-detail {
-    width: 89.2%;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .container-location {
+    gap: 10px;
     margin: 0;
+    padding-bottom: 20px;
 }
 
 .container-location h3 {
@@ -63,11 +65,12 @@
     color: white;
     font-weight: 700;
     font-size: 14px;
+    width: 115px;
 }
 
-.rate {
+/* .rate {
     width: 89.2%;
-}
+} */
 
 .collapse-details {
     width: 95% !important;
@@ -85,6 +88,11 @@
     .container-location h3 {
         font-size: 18px;
     }
+
+    .container-location p {
+        font-size: 14px ;
+    }
+
     .container-detail {
         display: flex;
         flex-direction: column;
@@ -120,6 +128,15 @@
 
     .rate {
         width: 100%;
+        justify-content: flex-start;
+    }
+
+    .details-responsive {
+        flex-direction: column;
+    }
+
+    .responsive-host {
+        flex-direction: row-reverse;
     }
     
 }

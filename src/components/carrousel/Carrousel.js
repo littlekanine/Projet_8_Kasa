@@ -1,12 +1,13 @@
-// React component for a carousel/slider that displays a series of pictures with navigation buttons.
-// Accepts a single prop 'pictures' which is an array of image URLs to be displayed in the carousel.
-
 import React from "react";
 import { useState } from "react";
 import './carrousel.css'
 import slideRight from '../../assets/vector/slideRight.png'
 import 
 slideLeft from '../../assets/vector/slideLeft.png'
+
+// React component for a carousel/slider that displays a series of pictures with navigation buttons.
+// Accepts a single prop 'pictures' which is an array of image URLs to be displayed in the carousel.
+
 
 function Carrousel({pictures}) {
     const [currentIndex, setCurrentIndex] = useState(0);
