@@ -108,6 +108,9 @@
     }
 
     .tag {
+        width: auto;
+        padding-right: 20px;
+        padding-left: 20px;
         height: 18px;
         font-size: 10px;
     }
@@ -136,6 +139,7 @@
     }
 
     .responsive-host {
+        margin-top: 10px;
         flex-direction: row-reverse;
     }
     
