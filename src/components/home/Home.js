@@ -7,7 +7,6 @@ import LandscapeBanner from "../bannerStack/LandscapeBanner.js";
 
 // React component for the main body content of the homepage.
 // Displays a LandscapeBanner component with a title and image, followed by a list of housing items.
-
 function Body () {
     return (
         <div>
