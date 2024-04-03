@@ -6,7 +6,6 @@ import './housingList.css'
 
 // React component for displaying a list of housing items.
 // Renders a list of housing cards generated from data in 'housing.json', each linking to a detailed page for that housing item.
-
 function HousingList () {
     return (
         <div className='background-container flex'>

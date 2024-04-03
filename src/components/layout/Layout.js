@@ -6,7 +6,6 @@ import './layout.css'
 
 // React component for the layout of the application, including header, main content, and footer.
 // Accepts children components to be rendered within the main content area.
-
 function Layout ({ children }) {
     return (
         <div>

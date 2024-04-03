@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 // React component for displaying a 404 error alert.
 // Renders a message indicating that the requested page does not exist, with a link to return to the homepage.
-
 function ErrorAlert () {
     return (
         <div className="flex center align-center error column">

@@ -54,6 +54,10 @@ p {
   width: 90%;
 }
 
+.width75 {
+  width: 75%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

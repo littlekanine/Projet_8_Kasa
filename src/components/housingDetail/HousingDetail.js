@@ -8,8 +8,6 @@ import Carrousel from "../carrousel/Carrousel";
 
 // React component for displaying details of a housing item.
 // Renders a carousel of pictures, housing title, location, host details, tags, rating, and collapsible sections for description and amenities.
-
-
 function HousingDetail () {
 
     const {id} = useParams()

@@ -55,6 +55,8 @@
     padding: 8px; 
     margin: 0;
     margin-bottom: 10px;
+    font-size: 18px;
+    height: 40px;
 }
 
 @media (max-width : 835px) {
