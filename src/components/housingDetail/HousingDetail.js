@@ -45,7 +45,7 @@ function HousingDetail () {
             </div>
             <div className="widthFull flex center">
                 <div className="flex row collapse-details align-center">
-                    <Collapse width="90%" title="Description" className="collapse-container-details">
+                    <Collapse width="100%" title="Description" className="collapse-container-details">
                         <p>{housing.description}</p>
                     </Collapse>
                     <Collapse width="100%" title="Equipements" className="collapse-container-details">

@@ -1,5 +1,5 @@
 import React from "react";
-import './home.css'
+import './homeComponent.css'
 import '../bannerStack/banner.css'
 import landscape1 from '../../assets/img/Image source 1.png'
 import HousingList from "../housing/HousingList.js"
