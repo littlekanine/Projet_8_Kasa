@@ -1,0 +1,28 @@
+.rate-stars {
+    height: 36px;
+    gap: 10px;
+}
+
+.rate-stars img {
+    width: 24px;
+    height: 24px;
+}
+
+.red {
+    color: #FF6060;
+}
+
+.grey {
+    fill: grey;
+}
+
+@media (max-width : 768px) {
+    .rate-stars { 
+        height: 18px;
+    }
+
+    .rate-stars img {
+        width: 13.41px;
+        height: 13px;
+    }
+}

@@ -1,0 +1,42 @@
+.error-title {
+    width: 597px;
+    height: 263px;
+    font-size :288px;
+    font-weight: 700;
+    color: #FF6060 ;
+}
+
+.error-h2 {
+    color: #FF6060;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom : 200px;
+}
+
+.link-back {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.link-back:hover {
+    text-decoration: underline;
+}
+
+@media (max-width : 850px) {
+    .error-title {
+        font-size: 150px;
+        width: 198px;
+        height: 99px;
+        margin-bottom: 200px;
+    }
+
+    .error-h2 {
+        font-size: 18px;
+        width: 260px;
+        height: 52px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+}
