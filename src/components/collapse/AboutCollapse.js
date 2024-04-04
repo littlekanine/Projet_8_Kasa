@@ -16,7 +16,7 @@ function AboutCollapse () {
             <div className="flex center column width75">
                 {TextAbout.map((item, index) => (
                     <Collapse title={item.title} key={index}>
-                        <p>{item.content}</p>
+                        <p >{item.content}</p>
                     </Collapse>
                 ))}
             </div>
