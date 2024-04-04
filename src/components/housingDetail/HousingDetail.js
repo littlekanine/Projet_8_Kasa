@@ -48,7 +48,7 @@ function HousingDetail () {
                     <Collapse width="90%" title="Description" className="collapse-container-details">
                         <p>{housing.description}</p>
                     </Collapse>
-                    <Collapse width="90%" title="Equipements" className="collapse-container-details">
+                    <Collapse width="100%" title="Equipements" className="collapse-container-details">
                         <div>
                             {housing.equipments.map((equipment, index) => (
                                 <p key={index}>{equipment}</p>
