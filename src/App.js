@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import CustomRoutes from './components/Routes/Routes';
-import './styles/App.css';
+import CustomRoutes from './components/routes/Routes';
 
 function App() {
   return (
