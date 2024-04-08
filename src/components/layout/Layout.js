@@ -13,7 +13,7 @@ function Layout ({ children }) {
                 <div className="nav flex align-center space-between">
                     <img className="img-logo" src={logo} alt="Logo de Kasa"></img>
                     <div className="flex link">
-                        <Link className="link-spec" to = "/?id=">Acceuil</Link>
+                        <Link className="link-spec" to = "/?id=">Accueil</Link>
                         <Link className="link-spec" to = "/About">A propos</Link>
                     </div>
                 </div>
