@@ -33,6 +33,7 @@ function Carrousel({pictures}) {
                             <img src = {slideRight} alt="slide next"></img>
                         </button>
                     </div>
+                    <div className="slide-indicator">{currentIndex + 1} / {pictures.length}</div>
                 {pictures.map((picture, index) => (
                     <div
                         key={index}
