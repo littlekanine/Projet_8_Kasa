@@ -3,7 +3,7 @@ import '../bannerStack/banner.css'
 import LandscapeBanner from "../bannerStack/LandscapeBanner";
 import landscape2 from '../../assets/img/Image source 2.png'
 import Collapse from "./Collapse";
-import TextAbout from "../../datas/textAbout.json"
+import TextAbout from "../../datas/textAboutData.json"
 
 // React component for displaying collapsible sections about a topic.
 // Renders a LandscapeBanner component at the top followed by collapsible sections generated from data in 'TextAbout' JSON array.$
