@@ -70,13 +70,14 @@ header {
     .link-spec {
         font-size: 16px;
         font-weight: 600;
-    }
-
-    .link-spec:hover {
         text-decoration: none;
     }
 
-    .link-spec:active {
+    .link-spec:hover{
+        text-decoration: none;
+    }
+     
+    .link-spec:focus {
         text-decoration: underline;
     }
 
