@@ -29,11 +29,11 @@ function Carrousel({pictures}) {
                         <button className="back" onClick={prevSlide}>
                             <img src = {slideLeft} alt="slide back"></img>
                         </button>
+                        <div className="flex center slide-indicator">{currentIndex + 1} / {pictures.length}</div>
                         <button className="next" onClick={nextSlide}>
                             <img src = {slideRight} alt="slide next"></img>
                         </button>
                     </div>
-                    <div className="slide-indicator">{currentIndex + 1} / {pictures.length}</div>
                 {pictures.map((picture, index) => (
                     <div
                         key={index}

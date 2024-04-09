@@ -33,6 +33,13 @@
   cursor: pointer;
 }
 
+.slide-indicator {
+    position: relative;
+    top: 200px;
+    color: white;
+    font-size : 18px;
+}
+
 @media (max-width :768px) {
     .slide.active img {
         height: 225px;
@@ -50,5 +57,9 @@
     .next img,
     .back img {
         height: 19px;
+    }
+
+    .slide-indicator {
+        visibility: hidden;
     }
 }

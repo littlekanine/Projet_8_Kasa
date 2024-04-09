@@ -69,10 +69,20 @@ header {
 
     .link-spec {
         font-size: 16px;
+        font-weight: 600;
+    }
+
+    .link-spec:hover {
+        text-decoration: none;
+    }
+
+    .link-spec:active {
+        text-decoration: underline;
     }
 
     .link {
         gap: 10px;
+        text-transform: uppercase;
     }
 
     .nav {
