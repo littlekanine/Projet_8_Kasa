@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import logo from '../../assets/logo/LOGO.png'
 import logoFooter from '../../assets/logo/LogoFooter.png'
 import './layout.css'
 
 function Layout ({ children }) {
-    const [focusedLink, setFocusedLink] = useState(null);
+    const location = useLocation();
 
-    const handleLinkClick = (link) => {
-        setFocusedLink(link);
+    const isCurrentPage = (link) => {
+        return location.pathname === link;
     };
 
     return (
@@ -17,14 +17,12 @@ function Layout ({ children }) {
                 <div className="nav flex align-center space-between">
                     <img className="img-logo" src={logo} alt="Logo de Kasa"></img>
                     <div className="flex link">
-                        <Link className={`link-spec ${focusedLink === 'accueil' ? 'focused' : ''}`} 
-                              to = "/?id=" 
-                              onClick={() => handleLinkClick('accueil')}>
+                        <Link className={`link-spec ${isCurrentPage('/') ? 'focused' : ''}`} 
+                              to = "/?id=" >
                             Accueil
                         </Link>
-                        <Link className={`link-spec ${focusedLink === 'about' ? 'focused' : ''}`} 
-                              to = "/About" 
-                              onClick={() => handleLinkClick('about')}>
+                        <Link className={`link-spec ${isCurrentPage('/About') ? 'focused' : ''}`} 
+                              to = "/About" >
                             A propos
                         </Link>
                     </div>
