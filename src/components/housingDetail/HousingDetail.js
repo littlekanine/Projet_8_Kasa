@@ -1,23 +1,24 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { Navigate } from "react-router-dom"
 import Housings from '../../datas/housing.json';
-import './housingDetail.css'
+import './housingDetail.css';
 import RateStars from "../stars/Star";
 import Collapse from "../collapse/Collapse";
 import Carrousel from "../carrousel/Carrousel";
 
-// React component for displaying details of a housing item.
-// Renders a carousel of pictures, housing title, location, host details, tags, rating, and collapsible sections for description and amenities.
-function HousingDetail () {
-
-    const {id} = useParams()
+function HousingDetail() {
+    const { id } = useParams();
     const housing = Housings.find((housing) => housing.id === id);
 
+    if (!housing) {
+        return <Navigate to="/error" />;
+    }
 
     return (
         <div className="flex center column">
             <div className="flex center carrousel">
-                <Carrousel pictures= {housing.pictures}/>   
+                <Carrousel pictures={housing.pictures} />
             </div>
             <div className="flex center">
                 <div className="flex space-between width90 details-responsive">
@@ -58,7 +59,7 @@ function HousingDetail () {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default HousingDetail
+export default HousingDetail;
