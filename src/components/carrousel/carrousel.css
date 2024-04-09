@@ -23,6 +23,7 @@
     position: absolute;
     width: 88%;
     top: 270px;
+    left: 6%;
     height: 0 !important;
 }
 
@@ -53,6 +54,7 @@
     .button-container {
         height: 19.8px;
         top: 180px;
+        left: 6%;
     }
 
     .next img,
