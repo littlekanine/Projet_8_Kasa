@@ -68,18 +68,17 @@ header {
         width: 145px;
     }
 
-    .link-spec {
-        font-size: 12px;
-        font-weight: 600;
+    .link-spec:hover {
         text-decoration: none;
     }
 
-    .link-spec:hover{
-        text-decoration: none;
+    .focused {
+        text-decoration: underline !important;
     }
-     
-    .link-spec:focus {
-        text-decoration: underline;
+
+    .link-spec {
+        font-size: 12px;
+        font-weight: 600;
     }
 
     .link {

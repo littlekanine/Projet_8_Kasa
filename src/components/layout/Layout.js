@@ -1,20 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from '../../assets/logo/LOGO.png'
 import logoFooter from '../../assets/logo/LogoFooter.png'
 import './layout.css'
 
-// React component for the layout of the application, including header, main content, and footer.
-// Accepts children components to be rendered within the main content area.
 function Layout ({ children }) {
+    const [focusedLink, setFocusedLink] = useState(null);
+
+    const handleLinkClick = (link) => {
+        setFocusedLink(link);
+    };
+
     return (
         <div>
             <header className="flex center">
                 <div className="nav flex align-center space-between">
                     <img className="img-logo" src={logo} alt="Logo de Kasa"></img>
                     <div className="flex link">
-                        <Link className="link-spec" to = "/?id=">Accueil</Link>
-                        <Link className="link-spec" to = "/About">A propos</Link>
+                        <Link className={`link-spec ${focusedLink === 'accueil' ? 'focused' : ''}`} 
+                              to = "/?id=" 
+                              onClick={() => handleLinkClick('accueil')}>
+                            Accueil
+                        </Link>
+                        <Link className={`link-spec ${focusedLink === 'about' ? 'focused' : ''}`} 
+                              to = "/About" 
+                              onClick={() => handleLinkClick('about')}>
+                            A propos
+                        </Link>
                     </div>
                 </div>
             </header>
@@ -31,4 +43,4 @@ function Layout ({ children }) {
     )
 }
 
-export default Layout
+export default Layout;
