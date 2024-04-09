@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { Navigate } from "react-router-dom"
-import Housings from '../../datas/housing.JSON';
+import Housings from '../../datas/housing.json';
 import './housingDetail.css';
 import RateStars from "../stars/Star";
 import Collapse from "../collapse/Collapse";

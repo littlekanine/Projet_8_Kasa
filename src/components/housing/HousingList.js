@@ -1,4 +1,4 @@
-import Housings from '../../datas/housing.JSON';
+import Housings from '../../datas/housing.json';
 import React from "react";
 import { Link } from 'react-router-dom';
 import '../../styles/index.css'
